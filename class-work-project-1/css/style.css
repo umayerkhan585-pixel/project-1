@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Times New Roman', Times, serif;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+/* global css start  */
+.container{
+    width: 1160px;
+    margin: 0 auto;
+
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-md-6{
+    width: 50%;
+    float: left;
+}
+.col-md-12{
+    width: 100%;
+    float: left;
+}
+.col-md-4{
+    width: 33.33%;
+    float: left;
+
+}
+.col-md-8{
+    width: 66.66%;
+    float: left;
+
+}
+/* global css end  */
+
+
+/* header section start  */
+.header-section{
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+}
+.logo{
+    padding: 15px 0;
+
+}
+.header-section .nav{
+    padding: 24px 0;
+    text-align:right;
+}
+.header-section .nav ul li{
+    margin-left: 25px;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    text-transform: uppercase;
+    
+}
+.header-section .nav ul li a{
+    color: #000;
+    transition: 1s;
+}
+.header-section .nav ul li a:hover{
+    color: #f6f9f9;
+    font-size: 20px;
+    background: #15a4fa;
+    padding: 10px;
+    border: 1px solid #15a4fa;
+}
+
+/* header-section end */
+
+
+/* banner-section css  start  */
+
+.banner-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+    background: url("../img/Banner.png") center top no-repeat;
+    background-size: cover;
+}
+.banner-section .banner-inner{
+    padding: 80px 0;
+    text-align: center;
+}
+.banner-section .banner-inner h1{
+    font-size: 80px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-bottom: 20px
+}
+.divider{
+    width: 40%;
+    height: 2px;
+    margin: 25px auto;
+    background: #15a4fa;
+    border: none;
+
+    
+}
+
+
+.banner-section .banner-inner p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 24px;
+    margin-bottom: 60px
+}
+.banner-section .banner-inner .btn-into{
+    border: 1px solid #15a4fa;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 25px;
+    color: #fff;
+    background: transparent;
+    border-radius: 2px;
+    transition: 1s;
+    display: inline-block;
+}
+.banner-section .banner-inner .btn-into:hover{
+    background: #15a4fa;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #fff;
+}
+
+.banner-section .banner-inner .icon{
+    padding: 80px 0 40px;
+    margin-top: 80px;
+}
+
+/* simlple section start */
+
+.simple-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+    background: #f6f9f9;
+}
+
+.simple-section .simple-inner{
+    text-align: center;
+}
+
+.simple-section .simple-inner h1{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.simple-section .simple-inner p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #999;
+    font-weight: 400;
+}
+
+
+/* simlple section end */
+
+
+ /* feature-section start  */
+.feature-section{
+    width: 100;
+    float: left;
+    padding: 80px;
+
+ }
+
+.feature-section .feature-inner{
+    text-align: center;
+ }
+
+.feature-section .feature-inner img{
+    margin-bottom: 20px;
+ }
+
+.feature-section .feature-inner h3{
+    font-size: 22px;
+    color: #000; 
+    margin-bottom: 15px;
+ }
+
+.feature-section .feature-inner p{
+    font-size: 14px;
+    color: #999;
+    
+ }
+
+ /* portfolio section start  */
+.portfolio-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+    background: #f6f9f9;
+ }
+.portfolio-section .title{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-bottom: 60px;
+ }
+.portfolio-section .title h1{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #000;
+    margin-bottom: 15px;
+ } 
+.portfolio-section .title p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #999;
+}
+.gab{
+    margin-top: 15px;
+}
+.portfolio-inner{
+    position: relative;
+}
+.port-hover{
+    width: 93.5%;
+    height: 97.5%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgb(25, 156, 235, 0.8);
+    display: none;
+
+}
+.inner-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.portfolio-inner:hover .port-hover{
+    display: block;
+}
+.port-hover a{
+    margin: 0 5px;
+}
+ /* portfolio section end  */
+/* footer-section start  */
+.stay-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+    background: url(./../img/Stay.png) center top no-repeat;
+    background-size: cover;
+}
+.stay-section .title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.stay-section .title h1{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.stay-section .title p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #999;
+    /* margin-bottom: 15px; */
+}
+.main-form{
+    width: 55%;
+    margin: 0 auto;
+}
+.main-form .form-group{
+    margin: 10px 0;
+}
+.form-control{
+    width: 95%;
+    padding: 12px;
+    background: transparent;
+    border: 2px solid #999;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+}
+spann{
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.btn-primary{
+    background: transparent;
+    padding: 10px 25px;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #15a4fa;
+    border-radius: 2px;
+    transition: 1s;
+
+}
+.btn-primary:hover{
+    background: #15a4fa;
+    color: #fff;
+}
+.text-right{
+    text-align: center;
+}
+
+/* footer section start  */
+
+.footer-section{
+    width: 100%;
+    float: left;
+    padding: 15px 0;
+    background: #f6f9f6;
+}
+.footer-section p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #999;
+}
+.social-icon{
+    text-align: right;
+}
+.social-icon ul li a{
+    font-size: 30px;
+    color: #15a4fa;
+    transition: 0.5s;
+    width: 40px;
+    height: 40px;
+    /* background: #15a4fa; */
+    /* padding: ; */
+}
+.social-icon ul li a:hover{
+    font-size: 35px;
+}
